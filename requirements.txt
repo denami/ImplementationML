@@ -2,3 +2,4 @@ kaggle
 pandas
 scikit-learn
 joblib
+Flask
