@@ -75,6 +75,8 @@ def main():
 
     MODEL_PATH.parent.mkdir(parents=True, exist_ok=True)
 
+
+    #Сохранение модели
     joblib.dump(model, MODEL_PATH)
 
     print(f"\nModel saved to: {MODEL_PATH}")
