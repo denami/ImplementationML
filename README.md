@@ -13,6 +13,7 @@
 |------------------------------|--------------------------------------------|
 | [app/api.py](./app/api.py)             | Python файл содержищий код API интерфейса|
 | [requirements.txt](./requirements.txt) | Список необходимых библиотек |
+| [START_UP_README.md](./START_UP_README.md) | Описание процесса обучения и запуска модели |
 | [Dockerfile](./docker/Dockerfile)      | Dockerfile описывающий сборку image |
 | [docker-compose.yml](./docker/docker-compose.yml) | Compose фыйл описывающий оркестрацию запуска контейнеров  |
 | [AB тестирование](ab_test_plan.md)     | Слайды презентации в формате png |
