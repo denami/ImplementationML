@@ -19,6 +19,10 @@
 | [AB тестирование](ab_test_plan.md)     | Слайды презентации в формате png |
 ---
 
+### Docker image
+
+В процессе разработки был создан Docker image доступный по адресу: https://hub.docker.com/r/andreilaptsinski/credit-default-api/tags
+
 ### Используемые технологии
 - Python
 - Docker
