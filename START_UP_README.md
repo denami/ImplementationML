@@ -253,32 +253,25 @@ curl -X POST http://localhost:5000/predict \
 
 ```text
 credit-default-ml/
-│
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
+├── ab_test_plan.md
+├── app
+│   ├── api.py
+├── docker
+│   ├── docker-compose.yml
+│   ├── Dockerfile
+│   ├── DOCKER_README.md
+│   └── nginx.conf
+├── images
+│   ├── img0001.png
+│   └── img0002.png
+├── models
+│   ├── download_data.py
+│   ├── model_loader.py
+│   ├── test_inference.py
+│   └── train_model.py
 ├── README.md
-├── START_UP_README.md
-├── ARCHITECTURE.md
-│
-├── docker/
-│   └── nginx.conf
-│
-├── models/
-│   ├── model_v1.joblib
-│   ├── model_loader.py
-│   ├── train_model.py
-│   └── test_inference.py
-│
-├── src/
-│   ├── __init__.py
-│   └── app.py
-│
-├── tests/
-│
-├── notebooks/
-│
-└── data/
+├── requirements.txt
+└── START_UP_README.md
 ```
 
 ---
